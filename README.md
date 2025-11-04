@@ -1,241 +1,478 @@
-# TaskFlowAPI# TaskFlowAPI
+# TaskFlowAPI# TaskFlowAPI# TaskFlowAPI
 
 
 
-A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.
+A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.
 
 
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/muracciolei/TaskFlowAPI/releases/latest)
 
-![Java Version](https://img.shields.io/badge/java-17-orange)![Java Version](https://img.shields.io/badge/java-17-orange)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
-![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)
+![Java Version](https://img.shields.io/badge/java-17-orange)
+
+![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)[![Maven](https://img.shields.io/badge/Maven-3.8.0-blue.svg)](https://maven.apache.org/)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 
 ## 🚀 Features
 
-![License](https://img.shields.io/badge/license-MIT-blue)[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Java Version](https://img.shields.io/badge/java-17-orange)![Java Version](https://img.shields.io/badge/java-17-orange)
 
 - **User Management**: Register, authenticate, and manage user profiles
 
-- **Task Management**: Create, update, delete, and organize tasks
+- **Task Management**: Create, update, delete, and organize tasks![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)
 
 - **Status Tracking**: Track tasks with statuses (PENDING, IN_PROGRESS, COMPLETED)
 
-- **User Assignment**: Assign tasks to specific users## 🚀 Features## 📋 Table of Contents
+- **User Assignment**: Assign tasks to specific users![License](https://img.shields.io/badge/license-MIT-blue)
 
 - **Due Dates**: Set and track task deadlines
 
-- **RESTful API**: Full REST API with proper HTTP methods and status codes
+- **RESTful API**: Full REST API with proper HTTP methods and status codes![Spring Boot](https://img.shields.io/badge/spring%20boot-3.2.0-green)[![Maven](https://img.shields.io/badge/Maven-3.8.0-blue.svg)](https://maven.apache.org/)
 
 - **Data Persistence**: H2 database for development, PostgreSQL ready for production
 
-- **Security**: Spring Security integration with CORS support- **User Management**: Register, authenticate, and manage user profiles- [Features](#features)
+- **Security**: Spring Security integration with CORS support## 🚀 Features
 
 - **Documentation**: Swagger/OpenAPI integration for API documentation
 
-- **Task Management**: Create, update, delete, and organize tasks- [Architecture](#architecture)
+![License](https://img.shields.io/badge/license-MIT-blue)[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🏗️ Tech Stack
 
-- **Status Tracking**: Track tasks with statuses (PENDING, IN_PROGRESS, COMPLETED)- [Prerequisites](#prerequisites)
+- **User Management**: Register, authenticate, and manage user profiles
 
 - **Framework**: Spring Boot 3.2.0
 
-- **Language**: Java 17- **User Assignment**: Assign tasks to specific users- [Installation](#installation)
+- **Language**: Java 17- **Task Management**: Create, update, delete, and organize tasks
 
 - **Database**: H2 (development) / PostgreSQL (production)
 
-- **ORM**: Spring Data JPA / Hibernate- **Due Dates**: Set and track task deadlines- [Quick Start](#quick-start)
+- **ORM**: Spring Data JPA / Hibernate- **Status Tracking**: Track tasks with statuses (PENDING, IN_PROGRESS, COMPLETED)
 
 - **Security**: Spring Security
 
-- **Build Tool**: Maven 3.9.5- **RESTful API**: Full REST API with proper HTTP methods and status codes- [Docker Setup](#docker-setup)
+- **Build Tool**: Maven 3.9.5- **User Assignment**: Assign tasks to specific users## 🚀 Features## 📋 Table of Contents
 
 - **Documentation**: Swagger/OpenAPI 3
 
-- **Testing**: JUnit 5, Mockito- **Data Persistence**: H2 database for development, PostgreSQL ready for production- [API Documentation](#api-documentation)
+- **Testing**: JUnit 5, Mockito- **Due Dates**: Set and track task deadlines
 
 
 
-## 📋 Prerequisites- **Security**: Spring Security integration with CORS support- [Project Structure](#project-structure)
+## 📋 Prerequisites- **RESTful API**: Full REST API with proper HTTP methods and status codes
 
 
 
-- Java 17 or higher- **Documentation**: Swagger/OpenAPI integration for API documentation- [Technologies](#technologies)
+- Java 17 or higher- **Data Persistence**: H2 database for development, PostgreSQL ready for production
 
 - Maven 3.6 or higher
 
-- Git- [Contributing](#contributing)
+- Git- **Security**: Spring Security integration with CORS support- **User Management**: Register, authenticate, and manage user profiles- [Features](#features)
 
 
 
-## 🛠️ Installation & Setup## 🏗️ Tech Stack- [License](#license)
+## 🛠️ Installation & Setup- **Documentation**: Swagger/OpenAPI integration for API documentation
 
 
 
-### 1. Clone the repository
+### 1. Clone the repository- **Task Management**: Create, update, delete, and organize tasks- [Architecture](#architecture)
 
 ```bash
 
-git clone https://github.com/muracciolei/TaskFlowAPI.git- **Framework**: Spring Boot 3.2.0## ✨ Features
+git clone https://github.com/muracciolei/TaskFlowAPI.git## 🏗️ Tech Stack
 
 cd TaskFlowAPI
 
-```- **Language**: Java 17
+```- **Status Tracking**: Track tasks with statuses (PENDING, IN_PROGRESS, COMPLETED)- [Prerequisites](#prerequisites)
 
 
 
-### 2. Build the project- **Database**: H2 (development) / PostgreSQL (production)### Core Functionality
+### 2. Build the project- **Framework**: Spring Boot 3.2.0
 
 ```bash
 
-mvn clean install- **ORM**: Spring Data JPA / Hibernate- ✅ **User Management** - Registration, authentication, and authorization
+mvn clean install- **Language**: Java 17- **User Assignment**: Assign tasks to specific users- [Installation](#installation)
 
 ```
 
-- **Security**: Spring Security- ✅ **Task CRUD Operations** - Create, read, update, delete tasks
+- **Database**: H2 (development) / PostgreSQL (production)
 
 ### 3. Run the application
 
-```bash- **Build Tool**: Maven 3.9.5- ✅ **Task Status Tracking** - Multiple status workflows (Open, In Progress, In Review, Completed, Cancelled)
+```bash- **ORM**: Spring Data JPA / Hibernate- **Due Dates**: Set and track task deadlines- [Quick Start](#quick-start)
 
 mvn spring-boot:run
 
-```- **Documentation**: Swagger/OpenAPI 3- ✅ **Priority Management** - Task prioritization (Low, Medium, High, Critical)
+```- **Security**: Spring Security
 
 
 
-The application will start on `http://localhost:8081/api`- **Testing**: JUnit 5, Mockito- ✅ **Team Collaboration** - Assign tasks to team members and track assignments
+The application will start on `http://localhost:8081/api`- **Build Tool**: Maven 3.9.5- **RESTful API**: Full REST API with proper HTTP methods and status codes- [Docker Setup](#docker-setup)
 
 
 
-### 4. Access H2 Console (Development)- ✅ **Project Management** - Organize tasks within projects
+### 4. Access H2 Console (Development)- **Documentation**: Swagger/OpenAPI 3
 
 - URL: `http://localhost:8081/api/h2-console`
 
-- JDBC URL: `jdbc:h2:mem:taskflowdb`## 📋 Prerequisites
+- JDBC URL: `jdbc:h2:mem:taskflowdb`- **Testing**: JUnit 5, Mockito- **Data Persistence**: H2 database for development, PostgreSQL ready for production- [API Documentation](#api-documentation)
 
 - Username: `sa`
 
-- Password: (leave empty)### Technical Features
+- Password: (leave empty)
 
 
 
-### 5. API Documentation- Java 17 or higher- ✅ **JWT Authentication** - Secure token-based authentication
+### 5. API Documentation## 📋 Prerequisites- **Security**: Spring Security integration with CORS support- [Project Structure](#project-structure)
 
 Access Swagger UI at: `http://localhost:8081/api/swagger-ui.html`
 
-- Maven 3.6 or higher- ✅ **Role-Based Access Control** - Admin, Project Manager, Team Lead, User roles
+
+
+## 📦 Releases
+
+- Java 17 or higher- **Documentation**: Swagger/OpenAPI integration for API documentation- [Technologies](#technologies)
+
+### 📥 **[Download Latest Release](https://github.com/muracciolei/TaskFlowAPI/releases/latest)**
+
+- Maven 3.6 or higher
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI?style=for-the-badge)](https://github.com/muracciolei/TaskFlowAPI/releases/latest)
+
+- Git- [Contributing](#contributing)
+
+### Release History
+
+- **v1.0.0** - Initial release with core functionality
+
+- See all releases: **[Release Notes](https://github.com/muracciolei/TaskFlowAPI/releases)**
+
+## 🛠️ Installation & Setup## 🏗️ Tech Stack- [License](#license)
 
 ## 📚 API Endpoints
 
-- Git- ✅ **RESTful API** - Clean, standards-compliant REST endpoints
+
 
 ### User Management
 
-- ✅ **PostgreSQL Database** - Persistent data storage with migrations
+### 1. Clone the repository
 
 | Method | Endpoint | Description |
 
-|--------|----------|-------------|## 🛠️ Installation & Setup- ✅ **Redis Caching** - Performance optimization with Redis cache
+|--------|----------|-------------|```bash
 
 | GET | `/api/users` | Get all users |
 
-| POST | `/api/users` | Create a new user |- ✅ **Swagger/OpenAPI** - Auto-generated API documentation
+| POST | `/api/users` | Create a new user |git clone https://github.com/muracciolei/TaskFlowAPI.git- **Framework**: Spring Boot 3.2.0## ✨ Features
 
 | GET | `/api/users/{id}` | Get user by ID |
 
-| PUT | `/api/users/{id}` | Update user |### 1. Clone the repository- ✅ **Docker Support** - Containerized deployment ready
+| PUT | `/api/users/{id}` | Update user |cd TaskFlowAPI
 
 | DELETE | `/api/users/{id}` | Delete user |
 
-```bash- ✅ **Spring Security** - Comprehensive security configuration
+```- **Language**: Java 17
 
 ### Task Management
 
-git clone git@github.com:muracciolei/TaskFlowAPI.git
+
 
 | Method | Endpoint | Description |
 
-|--------|----------|-------------|cd TaskFlowAPI## 🏗️ Architecture
+|--------|----------|-------------|### 2. Build the project- **Database**: H2 (development) / PostgreSQL (production)### Core Functionality
 
 | GET | `/api/tasks` | Get all tasks |
 
-| POST | `/api/tasks` | Create a new task |```
+| POST | `/api/tasks` | Create a new task |```bash
 
 | GET | `/api/tasks/{id}` | Get task by ID |
 
-| PUT | `/api/tasks/{id}` | Update task |```
+| PUT | `/api/tasks/{id}` | Update task |mvn clean install- **ORM**: Spring Data JPA / Hibernate- ✅ **User Management** - Registration, authentication, and authorization
 
 | DELETE | `/api/tasks/{id}` | Delete task |
 
-| GET | `/api/tasks/user/{userId}` | Get tasks by user |### 2. Build the projectTaskFlowAPI/
+| GET | `/api/tasks/user/{userId}` | Get tasks by user |```
 
 | GET | `/api/tasks/status/{status}` | Get tasks by status |
 
-```bash├── src/
+- **Security**: Spring Security- ✅ **Task CRUD Operations** - Create, read, update, delete tasks
 
 ## 📖 Usage Examples
 
-mvn clean install│   ├── main/
+### 3. Run the application
 
 ### Create a User
 
-```bash```│   │   ├── java/com/taskflow/
+```bash```bash- **Build Tool**: Maven 3.9.5- ✅ **Task Status Tracking** - Multiple status workflows (Open, In Progress, In Review, Completed, Cancelled)
 
 curl -X POST http://localhost:8081/api/users \
 
-  -H "Content-Type: application/json" \│   │   │   ├── controller/       # REST API endpoints
+  -H "Content-Type: application/json" \mvn spring-boot:run
 
   -d '{
 
-    "username": "johndoe",### 3. Run the application│   │   │   ├── service/          # Business logic layer
+    "username": "johndoe",```- **Documentation**: Swagger/OpenAPI 3- ✅ **Priority Management** - Task prioritization (Low, Medium, High, Critical)
 
     "email": "john.doe@example.com",
 
-    "password": "securepassword"```bash│   │   │   ├── repository/       # Data access layer
+    "password": "securepassword"
 
   }'
 
-```mvn spring-boot:run│   │   │   ├── model/            # Entity models
+```The application will start on `http://localhost:8081/api`- **Testing**: JUnit 5, Mockito- ✅ **Team Collaboration** - Assign tasks to team members and track assignments
 
 
 
-### Create a Task```│   │   │   ├── dto/              # Data transfer objects
+### Create a Task
 
 ```bash
 
-curl -X POST http://localhost:8081/api/tasks \│   │   │   ├── security/         # Security configuration
+curl -X POST http://localhost:8081/api/tasks \### 4. Access H2 Console (Development)- ✅ **Project Management** - Organize tasks within projects
 
   -H "Content-Type: application/json" \
 
-  -d '{The application will start on `http://localhost:8081/api`│   │   │   ├── exception/        # Custom exceptions
+  -d '{- URL: `http://localhost:8081/api/h2-console`
 
     "title": "Complete project documentation",
 
-    "description": "Write comprehensive README and API docs",│   │   │   └── util/             # Utility classes
+    "description": "Write comprehensive README and API docs",- JDBC URL: `jdbc:h2:mem:taskflowdb`## 📋 Prerequisites
 
     "dueDate": "2025-12-31",
 
-    "status": "PENDING",### 4. Access H2 Console (Development)│   │   └── resources/
+    "status": "PENDING",- Username: `sa`
 
     "userId": 1
 
-  }'- URL: `http://localhost:8081/api/h2-console`│   │       ├── application.yml    # Application configuration
+  }'- Password: (leave empty)### Technical Features
 
 ```
 
-- JDBC URL: `jdbc:h2:mem:taskflowdb`│   │       └── db/migrations/    # Database migrations
+
 
 ### Get Tasks by Status
 
+```bash### 5. API Documentation- Java 17 or higher- ✅ **JWT Authentication** - Secure token-based authentication
+
+curl http://localhost:8081/api/tasks/status/PENDING
+
+```Access Swagger UI at: `http://localhost:8081/api/swagger-ui.html`
+
+
+
+## 🔧 Configuration- Maven 3.6 or higher- ✅ **Role-Based Access Control** - Admin, Project Manager, Team Lead, User roles
+
+
+
+The application can be configured through `application.yml`:## 📚 API Endpoints
+
+
+
+### Database Configuration- Git- ✅ **RESTful API** - Clean, standards-compliant REST endpoints
+
+```yaml
+
+spring:### User Management
+
+  datasource:
+
+    url: jdbc:h2:mem:taskflowdb  # H2 for development- ✅ **PostgreSQL Database** - Persistent data storage with migrations
+
+    # url: jdbc:postgresql://localhost:5432/taskflowdb  # PostgreSQL for production
+
+```| Method | Endpoint | Description |
+
+
+
+### Server Configuration|--------|----------|-------------|## 🛠️ Installation & Setup- ✅ **Redis Caching** - Performance optimization with Redis cache
+
+```yaml
+
+server:| GET | `/api/users` | Get all users |
+
+  port: 8081
+
+  servlet:| POST | `/api/users` | Create a new user |- ✅ **Swagger/OpenAPI** - Auto-generated API documentation
+
+    context-path: /api
+
+```| GET | `/api/users/{id}` | Get user by ID |
+
+
+
+## 🗃️ Database Schema| PUT | `/api/users/{id}` | Update user |### 1. Clone the repository- ✅ **Docker Support** - Containerized deployment ready
+
+
+
+### Users Table| DELETE | `/api/users/{id}` | Delete user |
+
+- `id` (BIGINT, Primary Key)
+
+- `username` (VARCHAR, Unique)```bash- ✅ **Spring Security** - Comprehensive security configuration
+
+- `email` (VARCHAR, Unique)
+
+- `password` (VARCHAR)### Task Management
+
+
+
+### Tasks Tablegit clone git@github.com:muracciolei/TaskFlowAPI.git
+
+- `id` (BIGINT, Primary Key)
+
+- `title` (VARCHAR)| Method | Endpoint | Description |
+
+- `description` (TEXT)
+
+- `due_date` (DATE)|--------|----------|-------------|cd TaskFlowAPI## 🏗️ Architecture
+
+- `status` (VARCHAR): PENDING, IN_PROGRESS, COMPLETED
+
+- `user_id` (BIGINT, Foreign Key)| GET | `/api/tasks` | Get all tasks |
+
+
+
+## 🧪 Testing| POST | `/api/tasks` | Create a new task |```
+
+
+
+Run tests with:| GET | `/api/tasks/{id}` | Get task by ID |
+
+```bash
+
+mvn test| PUT | `/api/tasks/{id}` | Update task |```
+
+```
+
+| DELETE | `/api/tasks/{id}` | Delete task |
+
+## 🚀 Deployment
+
+| GET | `/api/tasks/user/{userId}` | Get tasks by user |### 2. Build the projectTaskFlowAPI/
+
+### Production Configuration
+
+| GET | `/api/tasks/status/{status}` | Get tasks by status |
+
+1. Update `application.yml` for production database
+
+2. Set environment variables:```bash├── src/
+
+   ```bash
+
+   export SPRING_PROFILES_ACTIVE=production## 📖 Usage Examples
+
+   export DATABASE_URL=your_production_db_url
+
+   export DATABASE_USERNAME=your_db_usernamemvn clean install│   ├── main/
+
+   export DATABASE_PASSWORD=your_db_password
+
+   ```### Create a User
+
+
+
+3. Build production JAR:```bash```│   │   ├── java/com/taskflow/
+
+   ```bash
+
+   mvn clean package -Pprodcurl -X POST http://localhost:8081/api/users \
+
+   ```
+
+  -H "Content-Type: application/json" \│   │   │   ├── controller/       # REST API endpoints
+
+4. Run the application:
+
+   ```bash  -d '{
+
+   java -jar target/taskflow-api-1.0.0.jar
+
+   ```    "username": "johndoe",### 3. Run the application│   │   │   ├── service/          # Business logic layer
+
+
+
+## 🤝 Contributing    "email": "john.doe@example.com",
+
+
+
+1. Fork the repository    "password": "securepassword"```bash│   │   │   ├── repository/       # Data access layer
+
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)  }'
+
+4. Push to the branch (`git push origin feature/amazing-feature`)
+
+5. Open a Pull Request```mvn spring-boot:run│   │   │   ├── model/            # Entity models
+
+
+
+## 📄 License
+
+
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.### Create a Task```│   │   │   ├── dto/              # Data transfer objects
+
+
+
+## 📞 Support```bash
+
+
+
+If you have any questions or issues, please:curl -X POST http://localhost:8081/api/tasks \│   │   │   ├── security/         # Security configuration
+
+1. Check the [API documentation](http://localhost:8081/api/swagger-ui.html)
+
+2. Review existing [issues](https://github.com/muracciolei/TaskFlowAPI/issues)  -H "Content-Type: application/json" \
+
+3. Create a new issue if needed
+
+  -d '{The application will start on `http://localhost:8081/api`│   │   │   ├── exception/        # Custom exceptions
+
+## 🎯 Roadmap
+
+    "title": "Complete project documentation",
+
+- [ ] JWT Authentication
+
+- [ ] Role-based access control    "description": "Write comprehensive README and API docs",│   │   │   └── util/             # Utility classes
+
+- [ ] Task categories and tags
+
+- [ ] File attachments for tasks    "dueDate": "2025-12-31",
+
+- [ ] Email notifications
+
+- [ ] Task comments and collaboration    "status": "PENDING",### 4. Access H2 Console (Development)│   │   └── resources/
+
+- [ ] Advanced filtering and search
+
+- [ ] Mobile API optimization    "userId": 1
+
+
+
+## 📊 Project Status  }'- URL: `http://localhost:8081/api/h2-console`│   │       ├── application.yml    # Application configuration
+
+
+
+**TaskFlowAPI** - Streamline your task management workflow with a powerful, RESTful API.```
+
+
+
+---- JDBC URL: `jdbc:h2:mem:taskflowdb`│   │       └── db/migrations/    # Database migrations
+
+
+
+**Version**: 1.0.0  ### Get Tasks by Status
+
+**Last Updated**: November 2025
 ```bash- Username: `sa`│   └── test/                     # Test cases
 
 curl http://localhost:8081/api/tasks/status/PENDING

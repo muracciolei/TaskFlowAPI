@@ -6,7 +6,9 @@ A comprehensive REST API for task management built with Spring Boot 3, providing
 
 
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/muracciolei/TaskFlowAPI)](https://github.com/muracciolei/TaskFlowAPI/releases)
+
+A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.A comprehensive REST API for task management built with Spring Boot 3, providing user management and task organization capabilities.
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/muracciolei/TaskFlowAPI/releases/latest)
 
